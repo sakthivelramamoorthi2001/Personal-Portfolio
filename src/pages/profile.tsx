@@ -402,6 +402,7 @@ const app = () => {
           <h1 className="text-2xl text-green-600 font-semibold">
             let Connect with us
           </h1>
+          
           <ul className="flexingRowCenter [&>*]:mr-2 mt-2">
             <li>
               <AiFillTwitterSquare size={40} />
