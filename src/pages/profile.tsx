@@ -20,6 +20,7 @@ import { SiNestjs, SiTailwindcss, SiPostgresql } from "react-icons/si";
 import sideHiremeImg from "../assets/developer-dark.3f07bd13.svg";
 import Forms from "../pages/Hireform";
 
+
 const app = () => {
   const navigate = useNavigate();
   const [follow, setfollow] = useState<Boolean>(false);
