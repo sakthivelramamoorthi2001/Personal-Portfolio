@@ -11,8 +11,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "predeploy": "npm run build && vite perview",
-    "deploy": "gh-pages -d build"
+    "predeploy": "npm run build ",
+    "deploy": "gh-pages -d build && vite perview"
   },
   "dependencies": {
     "gh-pages": "^5.0.0",
