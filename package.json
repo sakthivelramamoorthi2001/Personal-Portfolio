@@ -3,12 +3,16 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://sakthi-portfolio.onrender.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sakthivelramamoorthi2001/Personal-Portfolio"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview",
-    "prod": "vite",
-    "deploy": "vite preview"
+    "predeploy": "npm run build && vite perview",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "gh-pages": "^5.0.0",
