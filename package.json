@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://sakthivelramamoorthi2001.github.io/Personal-Portfolio",
+  "homepage": "https://sakthi-portfolio.onrender.com",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
