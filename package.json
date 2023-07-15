@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "prod": "vite"
+    "prod": "vite",
+    "deploy": "vite preview"
   },
   "dependencies": {
     "gh-pages": "^5.0.0",
