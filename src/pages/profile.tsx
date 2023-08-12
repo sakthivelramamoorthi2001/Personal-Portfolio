@@ -309,7 +309,7 @@ const app = () => {
             take the company to the next level
           </p>
           <button
-            onClick={() => navigate("about")}
+{/*             onClick={() => navigate("about")} */}
             className="[&>*]:mr-2 flexingRowCenter bg-green-600 text-white p-3 rounded-md mt-5 hover:bg-green-700 hover:scale-[1.1] hover:transition-transform"
           >
             <h1 className="text-xl">View Resume..</h1>
